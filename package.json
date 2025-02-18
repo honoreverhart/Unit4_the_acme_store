@@ -1,0 +1,29 @@
+{
+  "name": "unit4_the_acme_store",
+  "version": "1.0.0",
+  "description": "Unit 4 Block 35: The Acme Store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honoreverhart/Unit4_the_acme_store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honoreverhart/Unit4_the_acme_store/issues"
+  },
+  "homepage": "https://github.com/honoreverhart/Unit4_the_acme_store#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.3",
+    "save-dev": "^0.0.1-security",
+    "uuid": "^11.0.5"
+  }
+}
